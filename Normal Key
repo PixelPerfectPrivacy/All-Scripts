@@ -1,4 +1,4 @@
-local keylist = {"HmlsavCqEtQMYUSkGNQaQkERFDFqamyc"}
+local keylist = {"123"}
 local found = false
 
 for i, v in pairs(keylist) do 
@@ -23,4 +23,18 @@ if found then
    print("You Can Use This Script For This Reason: Your Key Is Fine")
    print("Thank You For Using Our Script")
 else
+   print("Whitelist...") 
+   print("Whitelist...")
+   print("Whitelist...")
+   print("Please Wait While We Whitelist Your Key...") 
+   print("Whitelist...") 
+   print("Whitelist...")
+   print("Whitelist...")
+   print("Whitelist Done")
+   print("Unvalid Key")
+   print("Unvalid Key")
+   print("Unvalid Key")
+   print("You Can't Use This Script For This Reason: Unvalid Key")
+   setclipboard("https://discord.gg/C6VaVKsapN")
+   game.Players.LocalPlayer:Kick("Your Key Is Wrong, Please Check And Try Again Later!") 
 end

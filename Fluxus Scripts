@@ -126,6 +126,8 @@ elseif _G.Script == "W-AzurePremiumBountyV2.2" then
    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/248f97d7a28a4d09c641d8279a935333.lua"))()
 elseif _G.Script == "W-AzurePremiumShowItem" then
    script_key ='NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA'
+   script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA";
+   script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a7e117dfcf8f6b9f6f561afa714c7d7f.lua"))() 
 elseif _G.Script == "SwitchHubCapcut" then
    script_key = "PaSCTwQLohEFmbVkRCsxGSHXYXEzGIcw";

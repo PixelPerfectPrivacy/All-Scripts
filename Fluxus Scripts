@@ -1,7 +1,5 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/PixelPerfectPrivacy/All-Scripts/main/BanKey"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PixelPerfectPrivacy/All-Scripts/main/Keylist"))()
 wait(2)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/PixelPerfectPrivacy/All-Scripts/main/Normal%20Key"))()
-wait(0.1)
 local api = "https://api.ipapi.is/?q="
 local HttpService = game:GetService("HttpService")
 local request = http_request or request or syn.request

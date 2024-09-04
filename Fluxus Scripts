@@ -61,50 +61,16 @@ OrionLib:MakeNotification({
 print("Axionix")
 OrionLib:MakeNotification({
 	Name = "Notification",
-	Content = "https://discord.gg/C6VaVKsapN",
+	Content = "https://discord.gg/8fTeuyzRCf",
 	Image = "rbxassetid://4483345998",
 	Time = 2
 })
+print("Axionix")
 if not _G.IsVaidIpWhilelist then
-    print("Unvalid IP, You Can't Use This Script")
-    setclipboard("https://discord.gg/C6VaVKsapN")
-    game.Players.LocalPlayer:Kick("Unvalid IP And Please Check And Try Again, Notice: https://discord.gg/8fTeuyzRCf") 
+   print("Unvalid IP, You Can't Use This Script")
+   setclipboard("https://discord.gg/8fTeuyzRCf")
+   game.Players.LocalPlayer:Kick("Unvalid IP And Please Check And Try Again, Notice: https://discord.gg/8fTeuyzRCf") 
 else
-    local validScripts = {
-        "LuxuryHub",
-        "RoyXHub",
-        "BananaHubMain",
-        "BananaHubKaitunBF",
-        "BananaHubKaitunAD",
-        "BananaHubBountyBF",
-        "W-AzurePremiumTrueV2",
-        "W-AzurePremiumOneClickLite",
-        "W-AzurePremiumADMain",
-        "W-AzurePremiumADOneClick",
-        "W-AzurePremiumADGemSender",
-        "W-AzurePremiumBountyV2",
-        "W-AzurePremiumBountyV2.2",
-        "W-AzurePremiumShowItem",
-        "SwitchHubCapcut",
-        "SwitchHubKaitun",
-        "SwitchHubPro",
-        "XovaHub"
-    }
-
-    local isValidScript = false
-
-    for _, scriptName in ipairs(validScripts) do
-        if _G.Script == scriptName then
-            isValidScript = true
-            break
-        end
-    end
-
-    if not isValidScript then
-        print("Invalid script name, you can't use this script")
-        setclipboard("https://discord.gg/C6VaVKsapN")
-        game.Players.LocalPlayer:Kick("Wrong Script, Please Check And Try Again Later")
-    else
 if _G.Script == "LuxuryHub" then
    _G.Key = "main_d4i0QoDXOZzaF1lnmCOH"
    _G.DiscordId = "1003662302412820622"
@@ -125,6 +91,10 @@ elseif _G.Script == "BananaHubKaitunAD" then
    repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
    getgenv().Key = "ffb89f1ddc2b13aff5e1923e"
    loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-KaitunAD.lua"))()
+elseif _G.Script == "BananaHubKaitunKL" then
+   repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+   getgenv().Key = "ffb89f1ddc2b13aff5e1923e"
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-KaitunKL.lua"))()
 elseif _G.Script == "BananaHubBountyBF" then
    repeat wait()
    until game:IsLoaded() and game.Players.LocalPlayer

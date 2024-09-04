@@ -1,5 +1,7 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/PixelPerfectPrivacy/All-Scripts/main/Keylist"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PixelPerfectPrivacy/All-Scripts/main/BanKey"))()
 wait(2)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PixelPerfectPrivacy/All-Scripts/main/Normal%20Key"))()
+wait(0.1)
 local api = "https://api.ipapi.is/?q="
 local HttpService = game:GetService("HttpService")
 local request = http_request or request or syn.request
@@ -71,11 +73,7 @@ if not _G.IsVaidIpWhilelist then
    setclipboard("https://discord.gg/8fTeuyzRCf")
    game.Players.LocalPlayer:Kick("Unvalid IP And Please Check And Try Again, Notice: https://discord.gg/8fTeuyzRCf") 
 else
-if _G.Script == "MaruHub" then
-   getgenv().Key = "MARU-VQ5FA-UUXGA-1G5M-QZYET-M372S"
-   getgenv().id = "1260539089829236811"
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
-elseif _G.Script == "LuxuryHub" then
+if _G.Script == "LuxuryHub" then
    _G.Key = "main_d4i0QoDXOZzaF1lnmCOH"
    _G.DiscordId = "1003662302412820622"
    loadstring(game:HttpGet("https://raw.githubusercontent.com/markxd07/Lux-Sexy/main/Body.lua"))();

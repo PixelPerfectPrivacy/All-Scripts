@@ -100,6 +100,10 @@ elseif _G.Script == "W-AzurePremiumTrueV2" then
    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA";
    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+elseif _G.Script == "W-AzurePremiumOneClickLite" then 
+   script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA";
+   script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6defa760de515eaa9b060a2aee22fbb8.lua%22"))()
 elseif _G.Script == "W-AzurePremiumADMain" then
    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA";
    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"

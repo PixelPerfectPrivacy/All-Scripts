@@ -1,6 +1,6 @@
-local validKeylist = {"HmlsavCqEtQMYUSkGNQaQkERFDFqamyc"}
+local validKeylist = {"Tg5ENQUwAsY", "a9OUod3okeS", "hntwlceQOSa"}
 
-local blacklistedKeylist = {"exampleBlacklistedKey1", "exampleBlacklistedKey2"}
+local blacklistedKeylist = {"123"}
 
 local isValid = false
 local isBlacklisted = false

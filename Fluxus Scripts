@@ -1,6 +1,6 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PixelPerfectPrivacy/All-Scripts/main/Keylist"))()
 wait(2)
-local api = "https://httpbin.org/get"
+local api = "https://api.ipapi.is/?q="
 local HttpService = game:GetService("HttpService")
 local request = http_request or request or syn.request
 local abc = tostring(game:GetService("RbxAnalyticsService"):GetClientId())
@@ -8,7 +8,7 @@ _G.IsVaidIpWhilelist = false
 function GetApi()
     local a = game:HttpGet(api)
     local b = HttpService:JSONDecode(a)
-    local c = b.origin
+    local c = b.ip
     if c ~= nil then
         return c
     end

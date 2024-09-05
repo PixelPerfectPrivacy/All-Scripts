@@ -1,4 +1,4 @@
-local validKeylist = {"Tg5ENQUwAsY", "a9OUod3okeS", "hntwlceQOSa", "WiwejLJewEv", "V7QGoQqSSaF", "hvvHQkM6qRI", "3iYJiO2la8o", "nWNzTuxJHRm", "I1dyivfURCq", "ao7op26uj5i", "3zpiuSPsEO8", "khekvRXKobK"}
+local validKeylist = {"Tg5ENQUwAsY", "a9OUod3okeS", "hntwlceQOSa", "WiwejLJewEv", "V7QGoQqSSaF", "hvvHQkM6qRI", "3iYJiO2la8o", "nWNzTuxJHRm", "I1dyivfURCq", "ao7op26uj5i", "3zpiuSPsEO8", "khekvRXKobK", "WgGoA3sYj6S"}
 
 local blacklistedKeylist = {"123"}
 

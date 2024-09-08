@@ -1,12 +1,52 @@
 import sys
+import os
 
-valid_keylist = ["s2bquyAOFSQ", "Tg5ENQUwAsY", "a9OUod3okeS", "hntwlceQOSa", "WiwejLJewEv", "V7QGoQqSSaF", "hvvHQkM6qRI", "3iYJiO2la8o", "nWNzTuxJHRm", "I1dyivfURCq", "ao7op26uj5i", "3zpiuSPsEO8", "khekvRXKobK", "WgGoA3sYj6S", "w4yLENShkcP", "Dd72FkBUxSr", "8IcPllN7iCb", "jD3T45NoxQh", "VcMao4F6rHf", "KdqmuJFrsbu", "PCSzhjvPTAb", "OCsHzPxovBT", "HbiS42BAxKe", "9b8F8MebyWR", "ldMYgfCKaNz", "xYC65RaSGBc"]
+valid_keylist = [
+"s2bquyAOFSQ", 
+"Tg5ENQUwAsY", 
+"a9OUod3okeS", 
+"hntwlceQOSa", 
+"WiwejLJewEv", 
+"V7QGoQqSSaF", 
+"hvvHQkM6qRI", 
+"3iYJiO2la8o", 
+"nWNzTuxJHRm", 
+"I1dyivfURCq", 
+"ao7op26uj5i", 
+"3zpiuSPsEO8", 
+"khekvRXKobK", 
+"WgGoA3sYj6S", 
+"w4yLENShkcP", 
+"Dd72FkBUxSr", 
+"8IcPllN7iCb", 
+"jD3T45NoxQh", 
+"VcMao4F6rHf", 
+"KdqmuJFrsbu", 
+"PCSzhjvPTAb", 
+"OCsHzPxovBT", 
+"HbiS42BAxKe", 
+"9b8F8MebyWR", 
+"ldMYgfCKaNz", 
+"xYC65RaSGBc"
+]
 
 blacklisted_keylist = ["123", "vungockhanh"]
 
 print("Vũ Ngọc Khánh Là Rác, Mãi Mãi Là Rác Và Skid New Tool")
 print("https://discord.gg/C6VaVKsapN")
-script_key = input("Please Enter Your Key: ")
+
+key_file = "Key.txt"
+
+# Check if key is already saved
+if os.path.exists(key_file):
+    with open(key_file, "r") as file:
+        script_key = file.read().strip()
+        print(f"Loaded saved key: {script_key}")
+else:
+    script_key = input("Please Enter Your Key: ")
+    with open(key_file, "w") as file:
+        file.write(script_key)
+        print(f"Key saved to {key_file}")
 
 is_valid = False
 is_blacklisted = False
@@ -31,6 +71,18 @@ if is_blacklisted:
     print("Invalid Key, Please Check And Try Again Later")
     print("Invalid Key, Please Check And Try Again Later")
     print("You Can't Use This Script For This Reason: Your Key Is Blacklisted")
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
     sys.exit()
     sys.exit()
     sys.exit()
@@ -64,6 +116,18 @@ else:
     print("Invalid Key, Please Check And Try Again Later")
     print("Invalid Key, Please Check And Try Again Later")
     print("You Can't Use This Script For This Reason: Your Key Is Invalid")
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
     sys.exit()
     sys.exit()
     sys.exit()

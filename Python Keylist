@@ -42,12 +42,12 @@ key_file = "Key.txt"
 if os.path.exists(key_file):
     with open(key_file, "r") as file:
         script_key = file.read().strip()
-        print(f"Running Saved Key: {script_key}")
+        print(Fore.GREEN + f"Running Saved Key: {script_key}")
 else:
     script_key = input(Fore.YELLOW + "Please Enter Your Key: " + Style.RESET_ALL)
     with open(key_file, "w") as file:
         file.write(script_key)
-        print(f"Key Saved In: {key_file} File.")
+        print(Fore.GREEN + f"Key Saved In: {key_file} File.")
 
 is_valid = False
 is_blacklisted = False

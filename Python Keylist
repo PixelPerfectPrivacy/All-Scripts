@@ -26,7 +26,8 @@ valid_keylist = [
 "HbiS42BAxKe", 
 "9b8F8MebyWR", 
 "ldMYgfCKaNz", 
-"xYC65RaSGBc"
+"xYC65RaSGBc",
+"gmlq0LdKvre"
 ]
 
 blacklisted_keylist = ["123", "vungockhanh"]

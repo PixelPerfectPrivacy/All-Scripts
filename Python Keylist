@@ -74,7 +74,9 @@ if is_blacklisted:
     print("Invalid Key, Please Check And Try Again Later")
     print("Invalid Key, Please Check And Try Again Later")
     print("You Can't Use This Script For This Reason: Your Key Is Blacklisted")
-    script_key = input(Fore.YELLOW + "Please Enter Your Key Again: " + Style.RESET_ALL)
+    sys.exit()
+    sys.exit()
+    sys.exit()
 elif is_valid:
     print("Whitelist...") 
     print("Whitelist...")
@@ -98,4 +100,6 @@ else:
     print("Whitelist Done")
     print("Invalid Key, Please Check And Try Again Later")
     print("You Can't Use This Script For This Reason: Your Key Is Invalid")
-    script_key = input(Fore.YELLOW + "Please Enter Your Key Again: " + Style.RESET_ALL) 
+    sys.exit()
+    sys.exit()
+    sys.exit()

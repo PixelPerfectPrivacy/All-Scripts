@@ -32,8 +32,9 @@ valid_keylist = [
 
 blacklisted_keylist = ["123", "vungockhanh"]
 
-print(Fore.RED + "Vũ Ngọc Khánh Là Rác, Mãi Mãi Là Rác Và Skid New Tool" + Style.RESET_ALL)
-print(Fore.RED + "https://discord.gg/C6VaVKsapN" + Style.RESET_ALL)
+print(Fore.RED + "Vũ Ngọc Khánh Là Rác, Mãi Mãi Là Rác Và Cặn Bã Của Xã Hội" + Style.RESET_ALL)
+print(Fore.GREEN + "Đây Là Discord Của Axionix: https://discord.gg/C6VaVKsapN" + Style.RESET_ALL)
+print(Fore.GREEN + "Chúc Mọi Người Vui Vẻ" + Style.RESET_ALL)
 
 key_file = "Key.txt"
 

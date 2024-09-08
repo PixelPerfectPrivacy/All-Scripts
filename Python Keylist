@@ -34,7 +34,7 @@ valid_keylist = [
 
 blacklisted_keylist = ["123", "vungockhanh"]
 
-key_file = "/data/data/com.termux/key.txt"
+key_file = "key.txt"
 
 print(Fore.RED + "Vũ Ngọc Khánh Là Rác, Mãi Mãi Là Rác, Cặn Bã Của Xã Hội Và Là Scammer Copy My Content" + Style.RESET_ALL)
 print(Fore.GREEN + "Đây Là Discord Của Axionix: https://discord.gg/C6VaVKsapN" + Style.RESET_ALL)

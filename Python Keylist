@@ -29,6 +29,8 @@ if is_blacklisted:
     print("Invalid Key, Please Check And Try Again Later")
     print("Invalid Key, Please Check And Try Again Later")
     print("You Can't Use This Script For This Reason: Your Key Is Blacklisted")
+    exit()
+    exit()
 elif is_valid:
     print("Whitelist...") 
     print("Whitelist...")
@@ -56,3 +58,5 @@ else:
     print("Invalid Key, Please Check And Try Again Later")
     print("Invalid Key, Please Check And Try Again Later")
     print("You Can't Use This Script For This Reason: Your Key Is Invalid")
+    exit()
+    exit()

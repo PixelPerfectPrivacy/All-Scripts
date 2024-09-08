@@ -31,21 +31,20 @@ valid_keylist = [
 
 blacklisted_keylist = ["123", "vungockhanh"]
 
-print("Vũ Ngọc Khánh Là Rác, Mãi Mãi Là Rác Và Skid New Tool")
-print("https://discord.gg/C6VaVKsapN")
+print(Fore.RED + "Vũ Ngọc Khánh Là Rác, Mãi Mãi Là Rác Và Skid New Tool" + Style.RESET_ALL)
+print(Fore.RED + "https://discord.gg/C6VaVKsapN" + Style.RESET_ALL)
 
 key_file = "Key.txt"
 
-# Check if key is already saved
 if os.path.exists(key_file):
     with open(key_file, "r") as file:
         script_key = file.read().strip()
-        print(f"Loaded saved key: {script_key}")
+        print(f"Running Saved Key: {script_key}")
 else:
-    script_key = input("Please Enter Your Key: ")
+    script_key = input(Fore.YELLOW + "Please Enter Your Key: " + Style.RESET_ALL)
     with open(key_file, "w") as file:
         file.write(script_key)
-        print(f"Key saved to {key_file}")
+        print(f"Key Saved In: {key_file} File.")
 
 is_valid = False
 is_blacklisted = False

@@ -5,8 +5,6 @@ blacklisted_keylist = ["123"]
 is_valid = False
 is_blacklisted = False
 
-script_key = input("Enter your key: ")
-
 if script_key in blacklisted_keylist:
     is_blacklisted = True
 

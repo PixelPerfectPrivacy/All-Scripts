@@ -1,5 +1,4 @@
 import sys
-import os
 
 valid_keylist = [
 "s2bquyAOFSQ", 

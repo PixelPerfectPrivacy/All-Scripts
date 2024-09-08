@@ -1,3 +1,5 @@
+import sys
+
 valid_keylist = ["Tg5ENQUwAsY", "a9OUod3okeS", "hntwlceQOSa", "WiwejLJewEv", "V7QGoQqSSaF", "hvvHQkM6qRI", "3iYJiO2la8o", "nWNzTuxJHRm", "I1dyivfURCq", "ao7op26uj5i", "3zpiuSPsEO8", "khekvRXKobK", "WgGoA3sYj6S", "w4yLENShkcP", "Dd72FkBUxSr", "8IcPllN7iCb", "jD3T45NoxQh", "VcMao4F6rHf", "KdqmuJFrsbu", "PCSzhjvPTAb", "OCsHzPxovBT", "HbiS42BAxKe", "9b8F8MebyWR"]
 
 blacklisted_keylist = ["123"]
@@ -29,8 +31,8 @@ if is_blacklisted:
     print("Invalid Key, Please Check And Try Again Later")
     print("Invalid Key, Please Check And Try Again Later")
     print("You Can't Use This Script For This Reason: Your Key Is Blacklisted")
-    exit()
-    exit()
+    sys.exit()
+    sys.exit()
 elif is_valid:
     print("Whitelist...") 
     print("Whitelist...")
@@ -58,5 +60,5 @@ else:
     print("Invalid Key, Please Check And Try Again Later")
     print("Invalid Key, Please Check And Try Again Later")
     print("You Can't Use This Script For This Reason: Your Key Is Invalid")
-    exit()
-    exit()
+    sys.exit()
+    sys.exit()

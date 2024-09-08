@@ -1,4 +1,4 @@
-local validKeylist = {""}
+local validKeylist = {"5123"}
 
 local blacklistedKeylist = {"123"}
 

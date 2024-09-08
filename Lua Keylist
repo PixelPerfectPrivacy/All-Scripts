@@ -1,4 +1,4 @@
-local validKeylist = {"s2bquyAOFSQ", "xYC65RaSGBc", "Tg5ENQUwAsY", "a9OUod3okeS", "hntwlceQOSa", "WiwejLJewEv", "V7QGoQqSSaF", "hvvHQkM6qRI", "3iYJiO2la8o", "nWNzTuxJHRm", "I1dyivfURCq", "ao7op26uj5i", "3zpiuSPsEO8", "khekvRXKobK", "WgGoA3sYj6S", "w4yLENShkcP", "Dd72FkBUxSr", "8IcPllN7iCb", "jD3T45NoxQh", "VcMao4F6rHf", "KdqmuJFrsbu", "PCSzhjvPTAb", "OCsHzPxovBT", "HbiS42BAxKe", "9b8F8MebyWR", "ldMYgfCKaNz"}
+local validKeylist = {"gmlq0LdKvre", "s2bquyAOFSQ", "xYC65RaSGBc", "Tg5ENQUwAsY", "a9OUod3okeS", "hntwlceQOSa", "WiwejLJewEv", "V7QGoQqSSaF", "hvvHQkM6qRI", "3iYJiO2la8o", "nWNzTuxJHRm", "I1dyivfURCq", "ao7op26uj5i", "3zpiuSPsEO8", "khekvRXKobK", "WgGoA3sYj6S", "w4yLENShkcP", "Dd72FkBUxSr", "8IcPllN7iCb", "jD3T45NoxQh", "VcMao4F6rHf", "KdqmuJFrsbu", "PCSzhjvPTAb", "OCsHzPxovBT", "HbiS42BAxKe", "9b8F8MebyWR", "ldMYgfCKaNz"}
 
 local blacklistedKeylist = {"123"}
 

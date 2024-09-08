@@ -1,43 +1,45 @@
+import os
 import sys
+from colorama import Fore, Style
 
 valid_keylist = [
 "s2bquyAOFSQ", 
 "Tg5ENQUwAsY", 
 "a9OUod3okeS", 
-"hntwlceQOSa", 
+"hntwlceQOSa",
 "WiwejLJewEv", 
 "V7QGoQqSSaF", 
 "hvvHQkM6qRI", 
-"3iYJiO2la8o", 
+"3iYJiO2la8o",
 "nWNzTuxJHRm", 
 "I1dyivfURCq", 
 "ao7op26uj5i", 
-"3zpiuSPsEO8", 
+"3zpiuSPsEO8",
 "khekvRXKobK", 
 "WgGoA3sYj6S", 
 "w4yLENShkcP", 
-"Dd72FkBUxSr", 
+"Dd72FkBUxSr",
 "8IcPllN7iCb", 
 "jD3T45NoxQh", 
 "VcMao4F6rHf", 
-"KdqmuJFrsbu", 
+"KdqmuJFrsbu",
 "PCSzhjvPTAb", 
 "OCsHzPxovBT", 
 "HbiS42BAxKe", 
-"9b8F8MebyWR", 
+"9b8F8MebyWR",
 "ldMYgfCKaNz", 
-"xYC65RaSGBc",
+"xYC65RaSGBc", 
 "gmlq0LdKvre"
 ]
 
 blacklisted_keylist = ["123", "vungockhanh"]
 
+key_file = "/data/data/com.termux/key.txt"
+
 print(Fore.RED + "Vũ Ngọc Khánh Là Rác, Mãi Mãi Là Rác, Cặn Bã Của Xã Hội Và Là Scammer Copy My Content" + Style.RESET_ALL)
 print(Fore.GREEN + "Đây Là Discord Của Axionix: https://discord.gg/C6VaVKsapN" + Style.RESET_ALL)
 print(Fore.GREEN + "Chúc Mọi Người Có Một Trải Nghiệm Vui Vẻ Nhé" + Style.RESET_ALL)
 print(Fore.RED + "Copyright By Axionix" + Style.RESET_ALL)
-
-key_file = "Key.txt"
 
 if os.path.exists(key_file):
     with open(key_file, "r") as file:
@@ -90,6 +92,12 @@ if is_blacklisted:
     sys.exit()
     sys.exit()
     sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
 elif is_valid:
     print("Whitelist...") 
     print("Whitelist...")
@@ -99,8 +107,6 @@ elif is_valid:
     print("Whitelist...")
     print("Whitelist...")
     print("Whitelist Done")
-    print("Valid Key, Correct Key And Your Key Is Fine")
-    print("Valid Key, Correct Key And Your Key Is Fine")
     print("Valid Key, Correct Key And Your Key Is Fine")
     print("You Can Use This Script For This Reason: Your Key Is Fine")
     print("Thank You For Using Our Script")
@@ -114,9 +120,13 @@ else:
     print("Whitelist...")
     print("Whitelist Done")
     print("Invalid Key, Please Check And Try Again Later")
-    print("Invalid Key, Please Check And Try Again Later")
-    print("Invalid Key, Please Check And Try Again Later")
     print("You Can't Use This Script For This Reason: Your Key Is Invalid")
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
+    sys.exit()
     sys.exit()
     sys.exit()
     sys.exit()
